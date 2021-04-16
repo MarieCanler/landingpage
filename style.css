@@ -1,0 +1,187 @@
+
+/* Base */
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background-image: url("image/fond.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    
+}
+
+h1 {
+    font-size: 50px;
+   font-family: "DM Serif Display";
+}
+
+h3 {
+    font-size: 30px;
+    font-family: "DM Serif Display";
+    font-style: italic ;
+}
+
+p {
+    font-size: 25;
+    font-family: "DM Serif Display";
+
+}
+    
+/* Layout */
+.container {
+    display: block;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 2em;
+}
+
+/* Components */
+
+.hero {
+    min-height: 100vh;
+    background-image: linear-gradient(
+        to right, 
+        var(--medium-color), 
+        var(--medium-color) 50%, 
+        var(--light-color) 50%)
+    ;
+    background-color: var(--light-color);
+}
+.hero-title,
+.hero-subtitle {
+    text-align: center;
+    color: #FFF;
+}
+
+.mon-image {
+    display: flex;
+    height: 40em;
+    margin-left: 20em;
+}
+
+.linkedin{
+    width: 3em;
+    display:flex;
+    height: 3em;
+    margin-left: auto;
+}
+
+.bloc {
+        color: white;
+    padding:1em;
+    font-size: 20px;
+    margin-top: -4.75px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.button {
+    color:rgb(0, 0, 0);
+    border-radius: 1em;
+    margin: 2em;
+    padding: 1em 1.5em;
+    background-color: #ffffff;
+    font-size: 16px;
+    text-decoration: none;
+    font-family: "Georgia";
+    cursor: pointer;
+    box-shadow: 0 8px 16px 0 black;
+}
+
+.button:hover {
+    background-color: #C4C9C7;
+
+  }
+
+  .button {
+    background-color: #FFFF;
+    Color:Black;
+    font-weight: bold;
+    padding: 10px 40px;
+    border-radius: 3px;
+    cursor: pointer; 
+    box-shadow: 0 8px 16px 0 grey;
+    text-decoration: none;
+    transition: background-color 1s;
+   
+  }
+
+  h1{
+      color: #FFF;
+      padding-left: 1em;
+  }
+
+.cartouche
+{
+    display: flex;
+}
+
+.button-container
+{
+    display: flex;
+    margin-left: 30em;
+    margin-right: auto;
+}
+
+video{
+    width: 300px;
+    height: 300px;
+}
+
+
+.carousel-items {
+    color: #FFF;
+    display: flex;
+    overflow-x: scroll;
+
+    padding: 1rem 0;
+    margin-left: 1rem;
+
+    
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 450px;
+    margin-left: 1rem;
+
+    display: flex;
+    overflow-x: scroll;
+    padding: 1rem 0;
+    scroll-snap-type: x mandatory;
+
+    flex: 1 0 250px;
+    margin-left: 1rem;
+    scroll-snap-align: start;
+
+}
+
+.carousel-items img{
+    width: 300px;
+    height: 300px;
+}
+
+.carousel-item{
+    padding: 1em;
+}
+
+.carousel-item2{
+    padding: 1em;
+}
+
+.carousel-item2 img{
+    width: 300px;
+    height: 250px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar {
+    height: 6px;
+    background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #FFF;
+    border-radius: 3px;
+}
+
